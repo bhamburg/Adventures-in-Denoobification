@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: GitHub | bhamburg.github.io]]></title>
+  <link href="http://bhamburg.github.io/blog/categories/github/atom.xml" rel="self"/>
+  <link href="http://bhamburg.github.io/"/>
+  <updated>2014-03-06T23:47:55-05:00</updated>
+  <id>http://bhamburg.github.io/</id>
+  <author>
+    <name><![CDATA[Brian Hamburg]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Day 1: Commence Denoobification]]></title>
+    <link href="http://bhamburg.github.io/blog/2014/03/05/day-1-commence-denoobification/"/>
+    <updated>2014-03-05T21:07:14-05:00</updated>
+    <id>http://bhamburg.github.io/blog/2014/03/05/day-1-commence-denoobification</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve always been a dabbler. I used to dabble in DOS and Windows configuration and eventually did it long enough to get my first real job doing technical support. I dabbled in banjo enough to make it to the front line of the <a href="http://fralinger.org">Fralinger String Band</a> and make a pretty steady side gig out of it. I dabbled in HTML, CSS, and JavaScript enough to make a career as a front-end web developer. Since then, I&rsquo;ve dabbled in C++, Java, PHP, Python, and C# (the latter just enough to gain my <a href="http://brianhamburg.com/resume/">Sitecore developer certification</a> even though I much prefer working on my <a href="http://github.com/bhamburg">open-source projects</a>). With all of that dabbling, I&rsquo;ve become very much an IT generalist (that happens to play banjo). A jackass of all trades, if you will. This has taken me pretty far in life, but even more importantly it&rsquo;s shown me how much I don&rsquo;t know and should know to take my career to the next level, namely a strong understanding of programming in the real world.</p>
+
+<h3>Become a <code>Ruby</code> Developer</h3>
+
+<p>Just from conversations with my colleages and reading articles on the web, I started to gain an interest in taking my career further in open-source development. I&rsquo;ve heard of Ruby on Rails and knew it was the latest hot trend in webdev, but I couldn&rsquo;t tell you much about it other than the seemingly well-paid pros were cool characters who shared a lot on GitHub. Then, in my daily Internet stumblings, I happened to read this page: <a href="http://rubycon.rkcudjoe.com/become-a-ruby-developer/">Become a Ruby Developer</a></p>
+
+<p>I really like what Raymond Cudjoe has put together here and, based on the book reviews and other articles I read, his advice seems to be solid. I&rsquo;ve decided to dive into this guide and become a Ruby developer. My inner geek is calling me to get serious. <strong>Consider this <del>Jekyll</del> Octopress blog his <em>Retrospection #1</em> assignment.</strong> I plan to read <em>The Passionate Programmer</em> over the next week or so. I&rsquo;m looking forward reporting my progress here, keeping track of everything that I have learned along the way.</p>
+
+<h3>GitHub</h3>
+
+<p>Prior to 2012, my only exposure to version control had been Dreamweaver&rsquo;s check-in feature. Once I started working at Jefferson Hospital, I was introduced to Subversion using a GUI without much command line interaction. My cursory knowledge of such an important aspect of a front- or back-end developer&rsquo;s world needs to change. I&rsquo;m going to make a concerted effort to become a Git expert and contribute to GitHub regularly as I learn Ruby and continue to work on my other projects. I&rsquo;ve found a good starting point in this effort to be <a href="http://gitimmersion.com/">Git Immersion</a>. Check out my very first Ruby program and contribution to GitHub below. It&rsquo;s official, folks.</p>
+
+<h2>The Obligatory <code>hello.rb</code></h2>
+
+<p>```ruby</p>
+
+<h1>Default is &ldquo;World&rdquo;</h1>
+
+<p>name = ARGV.first || &ldquo;World&rdquo;
+puts &ldquo;Hello, #{name}!&rdquo;
+```</p>
+]]></content>
+  </entry>
+  
+</feed>

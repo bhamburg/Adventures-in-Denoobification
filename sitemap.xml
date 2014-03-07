@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+    <url>
+        <loc>http://bhamburg.github.io/blog/2014/03/05/day-1-commence-denoobification/</loc>
+        <lastmod>2014-03-06T23:47:09-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://bhamburg.github.io/blog/2014/03/06/day-2-installed-octopress/</loc>
+        <lastmod>2014-03-06T22:27:02-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://bhamburg.github.io/about/</loc>
+        <lastmod>2014-03-06T22:45:08-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://bhamburg.github.io/blog/archives/</loc>
+        <lastmod>2014-03-06T23:47:09-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://bhamburg.github.io/</loc>
+        <lastmod>2014-03-06T23:47:09-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://bhamburg.github.io/robots.txt</loc>
+        <lastmod>2014-03-06T19:16:56-05:00</lastmod>
+    </url>
+</urlset>

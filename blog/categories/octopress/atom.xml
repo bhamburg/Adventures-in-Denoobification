@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Octopress | bhamburg.github.io]]></title>
+  <link href="http://bhamburg.github.io/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://bhamburg.github.io/"/>
+  <updated>2014-03-06T23:47:55-05:00</updated>
+  <id>http://bhamburg.github.io/</id>
+  <author>
+    <name><![CDATA[Brian Hamburg]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Day 2: Installed Octopress]]></title>
+    <link href="http://bhamburg.github.io/blog/2014/03/06/day-2-installed-octopress/"/>
+    <updated>2014-03-06T22:11:14-05:00</updated>
+    <id>http://bhamburg.github.io/blog/2014/03/06/day-2-installed-octopress</id>
+    <content type="html"><![CDATA[<p>Today was a day of great progress. After reading up on the benefits of Octopress, I decided to delete my Jekyll repository and start from scratch with a clone of <a href="https://github.com/imathis/octopress">Octopress</a>. Since you are reading this, it means my installation was successful and I can now track my daily efforts towards denoobification. I admit that just the install turned out to be an excellent learning experience because the process didn&rsquo;t go as smoothly as the Octopress documentation lead me to believe it would.</p>
+
+<h3>Not So Fast</h3>
+
+<p>The first problem I noticed was that I was only running Ruby 1.8.7 since it is the default version in OS X Mountain Lion which is what I&rsquo;m running on this iMac. The Octopress documentation recommends to upgrade to Ruby 1.9.3 via <code>rbenv</code>. For reasons outlined in <a href="http://blog.zerosharp.com/installing-ruby-with-homebrew-and-rbenv-on-mac-os-x-mountain-lion/">this article</a>, I was unable to do so before installing GCC. After that crucial step I was back on track via the documentation to upgrade Ruby, install Octopress, deploy to GitHub Pages, and get to blogging!</p>
+
+<h3>Portability Problem</h3>
+
+<p>Another issue I ran into was the fact that I did my initial push from my iMac but would be doing most of my blogging from my laptop. This didn&rsquo;t hold me up for long thanks to another article on
+<a href="http://blog.zerosharp.com/clone-your-octopress-to-blog-from-two-places/">zerosharp</a>.</p>
+
+<h3>Learning The Lingo, Making it Mine</h3>
+
+<p>Now that everything is up and running, the next step was to learn the lay of the land. The first thing I noticed is that Octopress blog posts use <a href="http://daringfireball.net/projects/markdown">Markdown</a>, which is something I have no prior experience with. After poking around for a few minutes, I managed to learn enough syntax to write this post (and go back and fix yesterday&rsquo;s post). I really like the ability to add <code>code</code> tags so easily.</p>
+
+<p>I had a few hours when I got home tonight to get a feel for how Octopress is structured and managed to make some changes to <code>_layout.scss</code> and <code>_typography.scss</code> and added my logo to the header and favicon. Overall, I&rsquo;m very pleased with tonight&rsquo;s results. Here are before and after shots.</p>
+
+<p><img src="/images/before.png" style="height: 45%; width: 45%;" /> <img src="/images/after.png" style="height: 45%; width: 45%; float: right;" /></p>
+]]></content>
+  </entry>
+  
+</feed>
