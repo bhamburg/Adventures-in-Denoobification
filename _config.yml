@@ -3,11 +3,11 @@
 # ----------------------- #
 
 url: http://bhamburg.github.io
-title: Brian Hamburg
+title: bhamburg.github.io
 subtitle: Adventures in Denoobification
 author: Brian Hamburg
 simple_search: http://google.com/search
-description: 
+description: Just another Octopress blog on GitHub Pages
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -70,7 +70,7 @@ github_skip_forks: true
 
 # Twitter
 twitter_user: bhamburg
-twitter_tweet_button: true
+twitter_tweet_button: false
 
 # Google +1
 google_plus_one: false
@@ -94,7 +94,7 @@ disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id: 
+google_analytics_tracking_id: UA-48755437-1
 
 # Facebook Like
 facebook_like: false
