@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Ruby, | bhamburg.github.io]]></title>
-  <link href="http://bhamburg.github.io/blog/categories/ruby/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Code | bhamburg.github.io]]></title>
+  <link href="http://bhamburg.github.io/blog/categories/code/atom.xml" rel="self"/>
   <link href="http://bhamburg.github.io/"/>
   <updated>2014-03-08T18:46:56-05:00</updated>
   <id>http://bhamburg.github.io/</id>
