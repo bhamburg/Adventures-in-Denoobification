@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Reading | bhamburg.github.io]]></title>
+  <link href="http://bhamburg.github.io/blog/categories/reading/atom.xml" rel="self"/>
+  <link href="http://bhamburg.github.io/"/>
+  <updated>2014-03-07T19:43:37-05:00</updated>
+  <id>http://bhamburg.github.io/</id>
+  <author>
+    <name><![CDATA[Brian Hamburg]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Day 3: Required Reading]]></title>
+    <link href="http://bhamburg.github.io/blog/2014/03/07/day-3-required-reading/"/>
+    <updated>2014-03-07T13:01:28-05:00</updated>
+    <id>http://bhamburg.github.io/blog/2014/03/07/day-3-required-reading</id>
+    <content type="html"><![CDATA[<p>Today I started reading <a href="http://www.amazon.com/The-Passionate-Programmer-Remarkable-Development/dp/1934356344"><em>The Passionate Programmer</em></a> by Chad Fowler. I&rsquo;m only a few chapters in after the train rides to and from work, but I can already say that this is a book I should have read years ago. The comparisons he draws between his career as a jazz musician and a software developer certainly hit home.</p>
+
+<p>My favortie advice in the book so far comes from chapter 4 in which the author quotes jazz guitarist Pat Metheny, &ldquo;Always be the worst guy in every band you&rsquo;re in.&rdquo; This is really just a clever way to say, always keep company with those who may make you better. His point is that if you&rsquo;re continuously pushing yourself outside your comfort zone and surrounding yourself with people who are better than you are at a certain skill, you will almost automatically get better. I have found this to be true in my own life experiences.</p>
+
+<p>I also picked up <a href="http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330"><em>Practical Object-Oriented Design in Ruby</em></a> by Sandi Metz, but I probably won&rsquo;t get to start that until at least next week. For now, I&rsquo;ll stick to the first book and do some online exercises in Git and Ruby.</p>
+
+<h2>Codecademy</h2>
+
+<p>As part of a requirement that I&rsquo;ve placed on myself for this journey to push code to GitHub every day, here is one of the early Ruby tutorials I&rsquo;ve completed on <a href="http://codecademy.com">Codecademy</a>. Variables with user input. Fancy-shmancy, indeed.</p>
+
+<p>```ruby names.rb</p>
+
+<h1>Get user&rsquo;s first name</h1>
+
+<p>print &ldquo;What&rsquo;s your first name? &rdquo;
+first_name = gets.chomp
+first_name.capitalize!</p>
+
+<h1>Get user&rsquo;s last name</h1>
+
+<p>print &ldquo;What&rsquo;s your last name? &rdquo;
+last_name = gets.chomp
+last_name.capitalize!</p>
+
+<h1>Get user&rsquo;s city</h1>
+
+<p>print &ldquo;From which city do you hail? &rdquo;
+city_name = gets.chomp
+city_name.capitalize!</p>
+
+<h1>Get user&rsquo;s state</h1>
+
+<p>print &ldquo;From which state do you hail? &rdquo;
+state_name = gets.chomp
+state_name.upcase!</p>
+
+<h1>Display results</h1>
+
+<p>puts &ldquo;Your name is #{first_name} #{last_name}, and you&rsquo;re from #{city_name}, #{state_name}!&rdquo;
+```</p>
+]]></content>
+  </entry>
+  
+</feed>
