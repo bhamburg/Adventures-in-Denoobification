@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Ruby, | bhamburg.github.io]]></title>
+  <title><![CDATA[Category: Ruby | bhamburg.github.io]]></title>
   <link href="http://bhamburg.github.io/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://bhamburg.github.io/"/>
-  <updated>2014-03-10T00:52:20-04:00</updated>
+  <updated>2014-03-10T23:04:14-04:00</updated>
   <id>http://bhamburg.github.io/</id>
   <author>
     <name><![CDATA[Brian Hamburg]]></name>
@@ -14,6 +14,72 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Day 6: Don't Listen to Your Parents]]></title>
+    <link href="http://bhamburg.github.io/blog/2014/03/10/day-6-dont-listen-to-your-parents/"/>
+    <updated>2014-03-10T21:52:30-04:00</updated>
+    <id>http://bhamburg.github.io/blog/2014/03/10/day-6-dont-listen-to-your-parents</id>
+    <content type="html"><![CDATA[<p>Today was a travel day. Andrea has nurse practitioner conference all week in Boston so I took the opportunity to use some vacation time to accompany her and hang out in Beantown. Since I was away from an internet connection, I stayed productive by catching up on my reading and creating a Ruby program from scratch.</p>
+
+<p>I&rsquo;m about halfway through <a href="http://www.amazon.com/The-Passionate-Programmer-Remarkable-Development/dp/1934356344"><em>The Passionate Programmer</em></a> and I&rsquo;m finding a ton of insight that I can relate to in this book. One chapter that really stood out was 6: &ldquo;Don&rsquo;t Listen To Your Parents.&rdquo; It&rsquo;s not as disrespectful as it sounds, and by no means is the author (or am I) trying to undermine the authority of parents of potential IT students everywhere. The main point he&rsquo;s trying to make is that the days of taking the safe and secure career path and staying at one job until retirement are over, especially for IT professionals. The following thoughts really hit home, especially regarding some recent conversations.</p>
+
+<blockquote><p>More than any other third party you might look to, your parents are going to give you fear-driven advice. Fear-driven advice is geared toward <em>not losing</em>. Thinking about not losing is <em>not</em> the way to win! Winners take risks. They think about where they want to go&mdash;not where the rest of the pack is.</p></blockquote>
+
+<p>The author goes on to explain this isn&rsquo;t just a rah-rah speech for individuals to follow their pie-in-the-sky dreams. There are logical, pragmatic reasons for a software developer to seek out a variety of experiences that can only come from having developed in multiple environments and having solved a variety of problems. In fact, he calls having only worked at one company a liability and a possible strike against a job candidate. Also, he aruges that truly enjoying one&rsquo;s work is the only way to become excellent and have a remarkable career.</p>
+
+<p>Hear, hear.</p>
+
+<h2>Ruby Practice: <code>99bottles.rb</code></h2>
+
+<p>In an attempt to synthesize some of the concepts I&rsquo;ve learned from <a href="http://rubybits.codeschool.com/">Ruby Bits</a>, I created a program that uses inline <code>if</code> and <code>unless</code> statements to minimize the amount of code necessary to set default values and get the grammar correct for the lyrics to &ldquo;N Bottle(s) Of Beer On The Wall.&rdquo;</p>
+
+<p>```ruby 99bottles.rb</p>
+
+<h1>Get user&rsquo;s favorite beer</h1>
+
+<p>print &ldquo;What is your favorite beer? (default is Sam Adams)\n&rdquo;
+beer = gets.chomp.split.map(&amp;:capitalize).join(&lsquo; &rsquo;)
+beer = &ldquo;Sam Adams&rdquo; if beer == &ldquo;&rdquo;</p>
+
+<h1>Get user&rsquo;s number of bottles</h1>
+
+<p>print &ldquo;How many bottles of #{beer} do you have? (default is 99)\n&rdquo;
+n = gets.to_i
+n = 99 if n == 0</p>
+
+<h1>Print lyrics</h1>
+
+<p>while n > 0</p>
+
+<pre><code>s = "s" unless n == 1
+puts "#{n} bottle#{s} of #{beer} on the wall.\n#{n} bottle#{s} of #{beer}.\nTake one down, pass it around."
+n -= 1
+s = "" if n == 1
+puts "#{n} bottle#{s} of #{beer} on the wall.\n\n"
+</code></pre>
+
+<p>end
+```</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Day 5: Classes]]></title>
+    <link href="http://bhamburg.github.io/blog/2014/03/09/day-5-classes/"/>
+    <updated>2014-03-09T19:32:48-04:00</updated>
+    <id>http://bhamburg.github.io/blog/2014/03/09/day-5-classes</id>
+    <content type="html"><![CDATA[<p>Part 3 of <a href="http://rubybits.codeschool.com/">Ruby Bits</a> introduces Ruby classes and the concepts of inheritance and encapsulation. This is an area I struggled with in my previous programming languages, which I admit is a big problem since this is pretty much the whole point of the &ldquo;object&rdquo; part of object-oriented programming. I feel like in previous attempts I didn&rsquo;t fully have my head wrapped around the relationships between parent and child classes and the private and public fields and methods within. I went through the motions and completed the homeworks but didn&rsquo;t really understand why it was important to build programs this way rather than doing a procedural-based alternative. I need to own these concepts and really dive into not just the &ldquo;what&rdquo; but also the &ldquo;why&rdquo; before moving on.</p>
+
+<p>While the Ruby-specific examples I&rsquo;ve done are great, after poking around on YouTube for a bit I found another Code School video on <a href="http://www.youtube.com/watch?v=lbXsrHGhBAU">Object-Oriented Programming</a> by Brian Will. His explanations extremely clear and relevant and some of the cat analogies are pretty funny too.</p>
+
+<h2>Social Coding</h2>
+
+<p>Also while searching for some insight on YouTube, I found this great video about the importance collaboration in software development. Brian Fitzpatrick and Ben Collins-Sussman explain how to avoid the trap of trying to be the solo genius developer and to &ldquo;gracefully exchange personal ego for personal growth.&rdquo; Check it out.</p>
+
+<p><a href="https://www.youtube.com/watch?v=0SARbwvhupQ">Google I/O 2009 &ndash; The Myth of the Genius Programmer</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Day 4: Code School]]></title>
     <link href="http://bhamburg.github.io/blog/2014/03/08/day-4-code-school/"/>
     <updated>2014-03-08T18:18:05-05:00</updated>
@@ -21,6 +87,80 @@
     <content type="html"><![CDATA[<p>Despite marching in a parade with Fralinger and plans to go out with some friends tonight, I still managed to get through Level 1 and 2 of <a href="http://rubybits.codeschool.com/">Ruby Bits</a> since I already have a <a href="http://codeschool.com">Code School</a> subscription. I figured it would make sense to learn as much as I can using Code School and Codecademy as a primer before plunking down the cash for the <a href="http://pragmaticstudio.com/">Pragmatic Studio</a> course that I intend to take.</p>
 
 <p>I&rsquo;ve been told there is no such thing as a bad workout and I suppose the same goes for a coding session. Even though I didn&rsquo;t have much time today, I still learned some important Ruby concepts such as the implied <code>nil</code> and short-circuit evaluation. Onward and upward tomorrow.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Day 3: Required Reading]]></title>
+    <link href="http://bhamburg.github.io/blog/2014/03/07/day-3-required-reading/"/>
+    <updated>2014-03-07T13:01:28-05:00</updated>
+    <id>http://bhamburg.github.io/blog/2014/03/07/day-3-required-reading</id>
+    <content type="html"><![CDATA[<p>Today I started reading <a href="http://www.amazon.com/The-Passionate-Programmer-Remarkable-Development/dp/1934356344"><em>The Passionate Programmer</em></a> by Chad Fowler. I&rsquo;m only a few chapters in after the train rides to and from work, but I can already say that this is a book I should have read years ago. The comparisons he draws between his career as a jazz musician and a software developer certainly hit home.</p>
+
+<p>My favortie advice in the book so far comes from chapter 4 in which the author quotes jazz guitarist Pat Metheny, &ldquo;Always be the worst guy in every band you&rsquo;re in.&rdquo; This is really just a clever way to say, always keep company with those who may make you better. His point is that if you&rsquo;re continuously pushing yourself outside your comfort zone and surrounding yourself with people who are better than you are at a certain skill, you will almost automatically get better. I have found this to be true in my own life experiences.</p>
+
+<p>I also picked up <a href="http://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330"><em>Practical Object-Oriented Design in Ruby</em></a> by Sandi Metz, but I probably won&rsquo;t get to start that until at least next week. For now, I&rsquo;ll stick to the first book and do some online exercises in Git and Ruby.</p>
+
+<h2>Codecademy</h2>
+
+<p>As part of a requirement that I&rsquo;ve placed on myself for this journey to push code to GitHub every day, here is one of the early Ruby tutorials I&rsquo;ve completed on <a href="http://codecademy.com">Codecademy</a>. Variables with user input. Fancy-shmancy, indeed.</p>
+
+<p>```ruby names.rb</p>
+
+<h1>Get user&rsquo;s first name</h1>
+
+<p>print &ldquo;What&rsquo;s your first name? &rdquo;
+first_name = gets.chomp
+first_name.capitalize!</p>
+
+<h1>Get user&rsquo;s last name</h1>
+
+<p>print &ldquo;What&rsquo;s your last name? &rdquo;
+last_name = gets.chomp
+last_name.capitalize!</p>
+
+<h1>Get user&rsquo;s city</h1>
+
+<p>print &ldquo;From which city do you hail? &rdquo;
+city_name = gets.chomp
+city_name.capitalize!</p>
+
+<h1>Get user&rsquo;s state</h1>
+
+<p>print &ldquo;From which state do you hail? &rdquo;
+state_name = gets.chomp
+state_name.upcase!</p>
+
+<h1>Display results</h1>
+
+<p>puts &ldquo;Your name is #{first_name} #{last_name}, and you&rsquo;re from #{city_name}, #{state_name}!&rdquo;
+```</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Day 2: Installed Octopress]]></title>
+    <link href="http://bhamburg.github.io/blog/2014/03/06/day-2-installed-octopress/"/>
+    <updated>2014-03-06T22:11:14-05:00</updated>
+    <id>http://bhamburg.github.io/blog/2014/03/06/day-2-installed-octopress</id>
+    <content type="html"><![CDATA[<p>Today was a day of great progress. After reading up on the benefits of Octopress, I decided to delete my Jekyll repository and start from scratch with a clone of <a href="https://github.com/imathis/octopress">Octopress</a>. Since you are reading this, it means my installation was successful and I can now track my daily efforts towards denoobification. I admit that just the install turned out to be an excellent learning experience because the process didn&rsquo;t go as smoothly as the Octopress documentation lead me to believe it would.</p>
+
+<h3>Not So Fast</h3>
+
+<p>The first problem I noticed was that I was only running Ruby 1.8.7 since it is the default version in OS X Mountain Lion which is what I&rsquo;m running on this iMac. The Octopress documentation recommends to upgrade to Ruby 1.9.3 via <code>rbenv</code>. For reasons outlined in <a href="http://blog.zerosharp.com/installing-ruby-with-homebrew-and-rbenv-on-mac-os-x-mountain-lion/">this article</a>, I was unable to do so before installing GCC. After that crucial step I was back on track via the documentation to upgrade Ruby, install Octopress, deploy to GitHub Pages, and get to blogging!</p>
+
+<h3>Portability Problem</h3>
+
+<p>Another issue I ran into was the fact that I did my initial push from my iMac but would be doing most of my blogging from my laptop. This didn&rsquo;t hold me up for long thanks to another article on
+<a href="http://blog.zerosharp.com/clone-your-octopress-to-blog-from-two-places/">zerosharp</a>.</p>
+
+<h3>Learning The Lingo, Making it Mine</h3>
+
+<p>Now that everything is up and running, the next step was to learn the lay of the land. The first thing I noticed is that Octopress blog posts use <a href="http://daringfireball.net/projects/markdown">Markdown</a>, which is something I have no prior experience with. After poking around for a few minutes, I managed to learn enough syntax to write this post (and go back and fix yesterday&rsquo;s post). I really like the ability to add <code>code</code> tags so easily.</p>
+
+<p>I had a few hours when I got home tonight to get a feel for how Octopress is structured and managed to make some changes to <code>_layout.scss</code> and <code>_typography.scss</code> and added my logo to the header and favicon. Overall, I&rsquo;m very pleased with tonight&rsquo;s results. Here are before and after shots.</p>
+
+<p><img src="/images/before.png" style="height: 45%; width: 45%;" /> <img src="/images/after.png" style="height: 45%; width: 45%; float: right;" /></p>
 ]]></content>
   </entry>
   

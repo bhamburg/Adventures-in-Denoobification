@@ -9,7 +9,7 @@
   <meta name="author" content="Brian Hamburg">
 
   
-  <meta name="description" content="Part 3 of Ruby Bits introduces Ruby classes and the concepts of inheritance and encapsulation. This is an area I struggled with in my previous &hellip;">
+  <meta name="description" content="Today was a travel day. Andrea has nurse practitioner conference all week in Boston so I took the opportunity to use some vacation time to accompany &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -80,6 +80,93 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/10/day-6-dont-listen-to-your-parents/">Day 6: Don&#8217;t Listen to Your Parents</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-10T21:52:30-04:00" pubdate data-updated="true">Mar 10<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Today was a travel day. Andrea has nurse practitioner conference all week in Boston so I took the opportunity to use some vacation time to accompany her and hang out in Beantown. Since I was away from an internet connection, I stayed productive by catching up on my reading and creating a Ruby program from scratch.</p>
+
+<p>I&rsquo;m about halfway through <a href="http://www.amazon.com/The-Passionate-Programmer-Remarkable-Development/dp/1934356344"><em>The Passionate Programmer</em></a> and I&rsquo;m finding a ton of insight that I can relate to in this book. One chapter that really stood out was 6: &ldquo;Don&rsquo;t Listen To Your Parents.&rdquo; It&rsquo;s not as disrespectful as it sounds, and by no means is the author (or am I) trying to undermine the authority of parents of potential IT students everywhere. The main point he&rsquo;s trying to make is that the days of taking the safe and secure career path and staying at one job until retirement are over, especially for IT professionals. The following thoughts really hit home, especially regarding some recent conversations.</p>
+
+<blockquote><p>More than any other third party you might look to, your parents are going to give you fear-driven advice. Fear-driven advice is geared toward <em>not losing</em>. Thinking about not losing is <em>not</em> the way to win! Winners take risks. They think about where they want to go&mdash;not where the rest of the pack is.</p></blockquote>
+
+<p>The author goes on to explain this isn&rsquo;t just a rah-rah speech for individuals to follow their pie-in-the-sky dreams. There are logical, pragmatic reasons for a software developer to seek out a variety of experiences that can only come from having developed in multiple environments and having solved a variety of problems. In fact, he calls having only worked at one company a liability and a possible strike against a job candidate. Also, he aruges that truly enjoying one&rsquo;s work is the only way to become excellent and have a remarkable career.</p>
+
+<p>Hear, hear.</p>
+
+<h2>Ruby Practice: <code>99bottles.rb</code></h2>
+
+<p>In an attempt to synthesize some of the concepts I&rsquo;ve learned from <a href="http://rubybits.codeschool.com/">Ruby Bits</a>, I created a program that uses inline <code>if</code> and <code>unless</code> statements to minimize the amount of code necessary to set default values and get the grammar correct for the lyrics to &ldquo;N Bottle(s) Of Beer On The Wall.&rdquo;</p>
+
+<figure class='code'><figcaption><span>99bottles.rb</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1"># Get user&#39;s favorite beer</span>
+</span><span class='line'><span class="nb">print</span> <span class="s2">&quot;What is your favorite beer? (default is Sam Adams)</span><span class="se">\n</span><span class="s2">&quot;</span>
+</span><span class='line'><span class="n">beer</span> <span class="o">=</span> <span class="nb">gets</span><span class="o">.</span><span class="n">chomp</span><span class="o">.</span><span class="n">split</span><span class="o">.</span><span class="n">map</span><span class="p">(</span><span class="o">&amp;</span><span class="ss">:capitalize</span><span class="p">)</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">)</span>
+</span><span class='line'><span class="n">beer</span> <span class="o">=</span> <span class="s2">&quot;Sam Adams&quot;</span> <span class="k">if</span> <span class="n">beer</span> <span class="o">==</span> <span class="s2">&quot;&quot;</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1"># Get user&#39;s number of bottles</span>
+</span><span class='line'><span class="nb">print</span> <span class="s2">&quot;How many bottles of </span><span class="si">#{</span><span class="n">beer</span><span class="si">}</span><span class="s2"> do you have? (default is 99)</span><span class="se">\n</span><span class="s2">&quot;</span>
+</span><span class='line'><span class="n">n</span> <span class="o">=</span> <span class="nb">gets</span><span class="o">.</span><span class="n">to_i</span>
+</span><span class='line'><span class="n">n</span> <span class="o">=</span> <span class="mi">99</span> <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">0</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1"># Print lyrics</span>
+</span><span class='line'><span class="k">while</span> <span class="n">n</span> <span class="o">&gt;</span> <span class="mi">0</span>
+</span><span class='line'>    <span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;s&quot;</span> <span class="k">unless</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">1</span>
+</span><span class='line'>    <span class="nb">puts</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">n</span><span class="si">}</span><span class="s2"> bottle</span><span class="si">#{</span><span class="n">s</span><span class="si">}</span><span class="s2"> of </span><span class="si">#{</span><span class="n">beer</span><span class="si">}</span><span class="s2"> on the wall.</span><span class="se">\n</span><span class="si">#{</span><span class="n">n</span><span class="si">}</span><span class="s2"> bottle</span><span class="si">#{</span><span class="n">s</span><span class="si">}</span><span class="s2"> of </span><span class="si">#{</span><span class="n">beer</span><span class="si">}</span><span class="s2">.</span><span class="se">\n</span><span class="s2">Take one down, pass it around.&quot;</span>
+</span><span class='line'>    <span class="n">n</span> <span class="o">-=</span> <span class="mi">1</span>
+</span><span class='line'>    <span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span> <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">1</span>
+</span><span class='line'>    <span class="nb">puts</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">n</span><span class="si">}</span><span class="s2"> bottle</span><span class="si">#{</span><span class="n">s</span><span class="si">}</span><span class="s2"> of </span><span class="si">#{</span><span class="n">beer</span><span class="si">}</span><span class="s2"> on the wall.</span><span class="se">\n\n</span><span class="s2">&quot;</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -377,6 +464,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/03/10/day-6-dont-listen-to-your-parents/">Day 6: Don&#8217;t Listen to Your Parents</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/03/09/day-5-classes/">Day 5: Classes</a>
       </li>
     
@@ -390,10 +481,6 @@
     
       <li class="post">
         <a href="/blog/2014/03/06/day-2-installed-octopress/">Day 2: Installed Octopress</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/03/05/day-1-commence-denoobification/">Day 1: Commence Denoobification</a>
       </li>
     
   </ul>
