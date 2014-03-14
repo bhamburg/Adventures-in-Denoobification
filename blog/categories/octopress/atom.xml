@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | bhamburg.github.io]]></title>
   <link href="http://bhamburg.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://bhamburg.github.io/"/>
-  <updated>2014-03-12T16:07:18-04:00</updated>
+  <updated>2014-03-14T11:58:12-04:00</updated>
   <id>http://bhamburg.github.io/</id>
   <author>
     <name><![CDATA[Brian Hamburg]]></name>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Day 2: Installed Octopress]]></title>
-    <link href="http://bhamburg.github.io/blog/2014/03/06/day-2-installed-octopress/"/>
+    <title type="html"><![CDATA[Installed Octopress]]></title>
+    <link href="http://bhamburg.github.io/blog/2014/03/06/installed-octopress/"/>
     <updated>2014-03-06T22:11:14-05:00</updated>
-    <id>http://bhamburg.github.io/blog/2014/03/06/day-2-installed-octopress</id>
+    <id>http://bhamburg.github.io/blog/2014/03/06/installed-octopress</id>
     <content type="html"><![CDATA[<p>Today was a day of great progress. After reading up on the benefits of Octopress, I decided to delete my Jekyll repository and start from scratch with a clone of <a href="https://github.com/imathis/octopress">Octopress</a>. Since you are reading this, it means my installation was successful and I can now track my daily efforts towards denoobification. I admit that just the install turned out to be an excellent learning experience because the process didn&rsquo;t go as smoothly as the Octopress documentation lead me to believe it would.</p>
 
 <h3>Not So Fast</h3>

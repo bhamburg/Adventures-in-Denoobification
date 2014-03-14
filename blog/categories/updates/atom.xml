@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Updates | bhamburg.github.io]]></title>
   <link href="http://bhamburg.github.io/blog/categories/updates/atom.xml" rel="self"/>
   <link href="http://bhamburg.github.io/"/>
-  <updated>2014-03-12T16:07:18-04:00</updated>
+  <updated>2014-03-14T11:58:12-04:00</updated>
   <id>http://bhamburg.github.io/</id>
   <author>
     <name><![CDATA[Brian Hamburg]]></name>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Day 2: Installed Octopress]]></title>
-    <link href="http://bhamburg.github.io/blog/2014/03/06/day-2-installed-octopress/"/>
+    <title type="html"><![CDATA[Installed Octopress]]></title>
+    <link href="http://bhamburg.github.io/blog/2014/03/06/installed-octopress/"/>
     <updated>2014-03-06T22:11:14-05:00</updated>
-    <id>http://bhamburg.github.io/blog/2014/03/06/day-2-installed-octopress</id>
+    <id>http://bhamburg.github.io/blog/2014/03/06/installed-octopress</id>
     <content type="html"><![CDATA[<p>Today was a day of great progress. After reading up on the benefits of Octopress, I decided to delete my Jekyll repository and start from scratch with a clone of <a href="https://github.com/imathis/octopress">Octopress</a>. Since you are reading this, it means my installation was successful and I can now track my daily efforts towards denoobification. I admit that just the install turned out to be an excellent learning experience because the process didn&rsquo;t go as smoothly as the Octopress documentation lead me to believe it would.</p>
 
 <h3>Not So Fast</h3>
@@ -40,10 +40,10 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Day 1: Commence Denoobification]]></title>
-    <link href="http://bhamburg.github.io/blog/2014/03/05/day-1-commence-denoobification/"/>
+    <title type="html"><![CDATA[Commence Denoobification]]></title>
+    <link href="http://bhamburg.github.io/blog/2014/03/05/commence-denoobification/"/>
     <updated>2014-03-05T21:07:14-05:00</updated>
-    <id>http://bhamburg.github.io/blog/2014/03/05/day-1-commence-denoobification</id>
+    <id>http://bhamburg.github.io/blog/2014/03/05/commence-denoobification</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve always been a dabbler. I used to dabble in DOS, Windows, and eventually Mac troubleshooting, and I eventually did it long enough to get my first real job doing technical support. I dabbled in banjo enough to make it to the front line of the <a href="http://fralinger.org">Fralinger String Band</a> and make a pretty steady side gig out of it. I dabbled in HTML, CSS, and JavaScript enough to turn it into a career as a front-end web developer. Since then, I&rsquo;ve dabbled in C++, Java, PHP, Python, and C# (the latter just enough to gain my <a href="http://brianhamburg.com/resume/">Sitecore developer certification</a> even though I much prefer working on my <a href="http://github.com/bhamburg">open-source projects</a>). With all of that dabbling, I&rsquo;ve become very much an IT generalist (that happens to play banjo too). A jackass of all trades, if you will. This has taken me pretty far in life, but even more importantly it has shown me how much I don&rsquo;t know, and should know, to take my career to the next level. Namely, a strong understanding of programming in real world applications.</p>
 
 <h3>Become a <code>Ruby</code> Developer</h3>

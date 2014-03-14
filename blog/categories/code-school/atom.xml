@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Code School | bhamburg.github.io]]></title>
   <link href="http://bhamburg.github.io/blog/categories/code-school/atom.xml" rel="self"/>
   <link href="http://bhamburg.github.io/"/>
-  <updated>2014-03-12T16:07:18-04:00</updated>
+  <updated>2014-03-14T11:58:12-04:00</updated>
   <id>http://bhamburg.github.io/</id>
   <author>
     <name><![CDATA[Brian Hamburg]]></name>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Day 4: Code School]]></title>
-    <link href="http://bhamburg.github.io/blog/2014/03/08/day-4-code-school/"/>
+    <title type="html"><![CDATA[Code School]]></title>
+    <link href="http://bhamburg.github.io/blog/2014/03/08/code-school/"/>
     <updated>2014-03-08T18:18:05-05:00</updated>
-    <id>http://bhamburg.github.io/blog/2014/03/08/day-4-code-school</id>
+    <id>http://bhamburg.github.io/blog/2014/03/08/code-school</id>
     <content type="html"><![CDATA[<p>Despite marching in a parade with Fralinger and plans to go out with some friends tonight, I still managed to get through Level 1 and 2 of <a href="http://rubybits.codeschool.com/">Ruby Bits</a> since I already have a <a href="http://codeschool.com">Code School</a> subscription. I figured it would make sense to learn as much as I can using Code School and Codecademy as a primer before plunking down the cash for the <a href="http://pragmaticstudio.com/">Pragmatic Studio</a> course that I intend to take.</p>
 
 <p>I&rsquo;ve been told there is no such thing as a bad workout and I suppose the same goes for a coding session. Even though I didn&rsquo;t have much time today, I still learned some important Ruby concepts such as the implied <code>nil</code> and short-circuit evaluation. Onward and upward tomorrow.</p>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Gems, | bhamburg.github.io]]></title>
   <link href="http://bhamburg.github.io/blog/categories/gems/atom.xml" rel="self"/>
   <link href="http://bhamburg.github.io/"/>
-  <updated>2014-03-12T16:07:18-04:00</updated>
+  <updated>2014-03-14T11:58:12-04:00</updated>
   <id>http://bhamburg.github.io/</id>
   <author>
     <name><![CDATA[Brian Hamburg]]></name>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Day 7: MIT]]></title>
-    <link href="http://bhamburg.github.io/blog/2014/03/11/day-7-mit/"/>
+    <title type="html"><![CDATA[MIT]]></title>
+    <link href="http://bhamburg.github.io/blog/2014/03/11/mit/"/>
     <updated>2014-03-11T23:27:04-04:00</updated>
-    <id>http://bhamburg.github.io/blog/2014/03/11/day-7-mit</id>
+    <id>http://bhamburg.github.io/blog/2014/03/11/mit</id>
     <content type="html"><![CDATA[<p>Today was my first full day in Boston. I decided to go for a run across the Charles River to MIT&rsquo;s campus and back, I had to do some logo design work before diving back into Ruby but I eventually managed to complete level 4 of <a href="http://rubybits.codeschool.com/">Ruby Bits</a>. I found the exercises to be pretty easy in this level. It turns out that Active Support, while it&rsquo;s not included in the Ruby base install, it&rsquo;s includes some very powerful functions that make it simple to do some common tasks.</p>
 
 <p>FYI: Active Support is released under the <a href="http://www.opensource.org/licenses/MIT">MIT license</a>.</p>

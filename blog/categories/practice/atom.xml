@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Practice | bhamburg.github.io]]></title>
   <link href="http://bhamburg.github.io/blog/categories/practice/atom.xml" rel="self"/>
   <link href="http://bhamburg.github.io/"/>
-  <updated>2014-03-12T16:07:18-04:00</updated>
+  <updated>2014-03-14T11:58:12-04:00</updated>
   <id>http://bhamburg.github.io/</id>
   <author>
     <name><![CDATA[Brian Hamburg]]></name>
@@ -14,10 +14,10 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Day 6: Don't Listen to Your Parents]]></title>
-    <link href="http://bhamburg.github.io/blog/2014/03/10/day-6-dont-listen-to-your-parents/"/>
+    <title type="html"><![CDATA[Don't Listen to Your Parents]]></title>
+    <link href="http://bhamburg.github.io/blog/2014/03/10/dont-listen-to-your-parents/"/>
     <updated>2014-03-10T21:52:30-04:00</updated>
-    <id>http://bhamburg.github.io/blog/2014/03/10/day-6-dont-listen-to-your-parents</id>
+    <id>http://bhamburg.github.io/blog/2014/03/10/dont-listen-to-your-parents</id>
     <content type="html"><![CDATA[<p>Today was a travel day. Andrea has nurse practitioner conference all week in Boston so I took the opportunity to use some vacation time to accompany her and hang out in Beantown. Since I was away from an internet connection, I stayed productive by catching up on my reading and creating a Ruby program from scratch.</p>
 
 <p>I&rsquo;m about halfway through <a href="http://www.amazon.com/The-Passionate-Programmer-Remarkable-Development/dp/1934356344"><em>The Passionate Programmer</em></a> and I&rsquo;m finding a ton of insight that I can relate to in this book. One chapter that really stood out was 6: &ldquo;Don&rsquo;t Listen To Your Parents.&rdquo; It&rsquo;s not as disrespectful as it sounds, and by no means is the author (or am I) trying to undermine the authority of parents of potential IT students everywhere. The main point he&rsquo;s trying to make is that the days of taking the safe and secure career path and staying at one job until retirement are over, especially for IT professionals. The following thoughts really hit home, especially regarding some recent conversations.</p>
