@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Treehouse | bhamburg.github.io]]></title>
+  <link href="http://bhamburg.github.io/blog/categories/treehouse/atom.xml" rel="self"/>
+  <link href="http://bhamburg.github.io/"/>
+  <updated>2014-03-19T19:33:24-04:00</updated>
+  <id>http://bhamburg.github.io/</id>
+  <author>
+    <name><![CDATA[Brian Hamburg]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Treehouse]]></title>
+    <link href="http://bhamburg.github.io/blog/2014/03/19/treehouse/"/>
+    <updated>2014-03-19T18:10:03-04:00</updated>
+    <id>http://bhamburg.github.io/blog/2014/03/19/treehouse</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve always been told the best way to learn a language is to immerse yourself in it. I&rsquo;m also one to approach problems from several different angles to find a solution. Thus, I enrolled in <a href="http://teamtreehouse.com/tracks/rails-development">Treehouse&rsquo;s Rails track</a> as part of my 14-day free trial.</p>
+
+<p>A couple of features that I like better than Code School include an iPad app and a responsively designed website, the latter of which actually allowed me to complete a few extremely basic HTML classes on the train tonight. I&rsquo;ve read that it is more for beginners than Code School, so I&rsquo;ll try to fly through what I know of HTML/CSS/JavaScript and fill in some gaps that I might have missed in my first few encounters with Ruby.</p>
+
+<h2>It Just Works</h2>
+
+<p>This Apple mantra drives a lot of techies nuts, especially the ones who have to diagnose and troubleshoot problems with Apple products. I get what their marketing department (Steve) was driving at though, and I appreciate the way they&rsquo;ve tried to idiot-proof their products so people can spend less time fixing them and more time getting work done.</p>
+
+<p>Even though the install process did anything but &ldquo;just work,&rdquo; possibly due to the fact that I&rsquo;m using on a Mac, what I&rsquo;ve read so far about Rails gives me the same typical warm and fuzzies. Tedious business like writing SQL and developing everything from scratch gets taken care of by the magical Rails machine. It goes back to the concept of &ldquo;Convention Over Configuration&rdquo; which I touched on <a href="http://bhamburg.github.io/blog/2014/03/18/get-rolling/">yesterday</a>. Why reinvent the wheel when you could already be <a href="http://bhamburg.github.io/blog/2014/03/18/get-rolling/">rolling</a>?</p>
+]]></content>
+  </entry>
+  
+</feed>

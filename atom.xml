@@ -4,7 +4,7 @@
   <title><![CDATA[bhamburg.github.io]]></title>
   <link href="http://bhamburg.github.io/atom.xml" rel="self"/>
   <link href="http://bhamburg.github.io/"/>
-  <updated>2014-03-19T19:08:05-04:00</updated>
+  <updated>2014-03-19T19:33:24-04:00</updated>
   <id>http://bhamburg.github.io/</id>
   <author>
     <name><![CDATA[Brian Hamburg]]></name>
@@ -18,7 +18,15 @@
     <link href="http://bhamburg.github.io/blog/2014/03/19/treehouse/"/>
     <updated>2014-03-19T18:10:03-04:00</updated>
     <id>http://bhamburg.github.io/blog/2014/03/19/treehouse</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>I&rsquo;ve always been told the best way to learn a language is to immerse yourself in it. I&rsquo;m also one to approach problems from several different angles to find a solution. Thus, I enrolled in <a href="http://teamtreehouse.com/tracks/rails-development">Treehouse&rsquo;s Rails track</a> as part of my 14-day free trial.</p>
+
+<p>A couple of features that I like better than Code School include an iPad app and a responsively designed website, the latter of which actually allowed me to complete a few extremely basic HTML classes on the train tonight. I&rsquo;ve read that it is more for beginners than Code School, so I&rsquo;ll try to fly through what I know of HTML/CSS/JavaScript and fill in some gaps that I might have missed in my first few encounters with Ruby.</p>
+
+<h2>It Just Works</h2>
+
+<p>This Apple mantra drives a lot of techies nuts, especially the ones who have to diagnose and troubleshoot problems with Apple products. I get what their marketing department (Steve) was driving at though, and I appreciate the way they&rsquo;ve tried to idiot-proof their products so people can spend less time fixing them and more time getting work done.</p>
+
+<p>Even though the install process did anything but &ldquo;just work,&rdquo; possibly due to the fact that I&rsquo;m using on a Mac, what I&rsquo;ve read so far about Rails gives me the same typical warm and fuzzies. Tedious business like writing SQL and developing everything from scratch gets taken care of by the magical Rails machine. It goes back to the concept of &ldquo;Convention Over Configuration&rdquo; which I touched on <a href="http://bhamburg.github.io/blog/2014/03/18/get-rolling/">yesterday</a>. Why reinvent the wheel when you could already be <a href="http://bhamburg.github.io/blog/2014/03/18/get-rolling/">rolling</a>?</p>
 ]]></content>
   </entry>
   
@@ -29,20 +37,31 @@
     <id>http://bhamburg.github.io/blog/2014/03/18/get-rolling</id>
     <content type="html"><![CDATA[<p>After taking a much needed break from all things constructive to properly celebrate St. Patrick&rsquo;s Day while still in Boston, I&rsquo;m back on the Ruby train. Since I only had a little bit of time today, I listened to some <a href="http://www.buildingwebapps.com/transcript/79326-why-you-should-learn-ruby-on">free audio lessons about Ruby on Rails</a>, tried to install Rails on my Mac, failed hard, <a href="http://railsapps.github.io/installrubyonrails-mac.html">overcame failure</a>, poked around, and then try to reinforce what I&rsquo;m doing by reading some blog posts that praise Ruby and Ruby on Rails.</p>
 
-<h2>Installing Ruby On Rails</h2>
+<h2>Installing <code>Ruby On Rails</code></h2>
 
-<figure class='code'><figcaption><span>Install Rails Framework</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span>Install Rails</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 </pre></td><td class='code'><pre><code class='bash'><span class='line'>% sudo gem install rails
 </span></code></pre></td></tr></table></div></figure>
 
 
-<p>That&rsquo;s all it should take, they said. Developing on Rails is easy, they said. They didn&rsquo;t say how hard it might be to troubleshoot the install.</p>
+<p>That&rsquo;s all it should take, they said. Developing on Rails is easy, they said. They didn&rsquo;t say how hard it might be to actually complete the install.</p>
 
-<p>Part of my problem was that I was using the version of Ruby that ships with Mac OS X 10.9 Mavericks, which is known to have a security flaw. The recommended way to upgrade is to use <a href="https://rvm.io/">RVM</a>. From there I had to get <a href="http://brew.sh/">Homebrew</a>, uninstall <a href="http://bitboxer.de/2010/06/03/moving-from-macports-to-homebrew/">MacPorts</a>, update <code>.bash_profile</code> to point to <code>/usr/local/bin</code> to stop some error messages, install Rails, and finally reinstall <a href="http://rake.rubyforge.org/">Rake</a> so I could blog about it on Octopress.</p>
+<p>Part of my problem was that I was using the version of Ruby that ships with Mac OS X 10.9 Mavericks, which is known to have a security flaw. The recommended way to upgrade is to use <a href="https://rvm.io/">RVM</a>. From there I had to</p>
+
+<ul>
+<li>get <a href="http://brew.sh/">Homebrew</a></li>
+<li>uninstall <a href="http://bitboxer.de/2010/06/03/moving-from-macports-to-homebrew/">MacPorts</a></li>
+<li>update .bash_profile PATH to point to <code>/usr/local/bin:PATH</code> to stop some error messages</li>
+<li>install Rails</li>
+<li>and finally reinstall <a href="http://rake.rubyforge.org/">Rake</a> so I could blog about it on Octopress.</li>
+</ul>
+
+
+<p>Ruby On Rails is now up and running on my MacBook Pro with Mavericks. Now I must figure out what to do with it!</p>
 
 <h2>Convention Over Configuration</h2>
 
-<p>In the podcast above, I came across the concept of Convention Over Configuration as a main theme in Rails development. Sure, having the ability to customize and do things your own way is nice, and sometimes necessary, but why would you in most cases? This is a big reason I&rsquo;ve returned to the iPhone and Mac for personal productivity after dabbling with Android and Linux for a bit. Kyle Samani wrote a nice article on the concept <a href="http://kylesamani.com/blog/convention-configuration">here</a> and I originally talked about &ldquo;the cost of freedom&rdquo; on my main blog <a href="http://brianhamburg.com/2013/06/the-cost-of-freedom/">over here</a>.</p>
+<p>In the podcast above, I came across the concept of &ldquo;Convention Over Configuration&rdquo; as a main theme in Rails development. Sure, having the ability to customize and do things your own way is nice, and sometimes necessary, but why would you in most cases? Choice paralysis can be costly when time is money. This is a big reason I&rsquo;ve returned to the iPhone and Mac for personal productivity after dabbling with Android and Linux for a bit. Kyle Samani wrote a nice article on the concept <a href="http://kylesamani.com/blog/convention-configuration">here</a> and I originally talked about &ldquo;the cost of freedom&rdquo; on my main blog <a href="http://brianhamburg.com/2013/06/the-cost-of-freedom/">over here</a>.</p>
 ]]></content>
   </entry>
   
