@@ -1,15 +1,18 @@
 ---
 layout: post
-title: "Day 5: Classes"
+title: "Classes"
 date: 2014-03-09 19:32:48 -0400
 comments: true
 categories: Ruby OOP
 ---
 Part 3 of [Ruby Bits](http://rubybits.codeschool.com/) introduces Ruby classes and the concepts of inheritance and encapsulation. This is an area I struggled with in my previous programming languages, which I admit is a big problem since this is pretty much the whole point of the "object" part of object-oriented programming. I feel like in previous attempts I didn't fully have my head wrapped around the relationships between parent and child classes and the private and public fields and methods within. I went through the motions and completed the homeworks but didn't really understand why it was important to build programs this way rather than doing a procedural-based alternative. I need to own these concepts and really dive into not just the "what" but also the "why" before moving on.
 
-While the Ruby-specific examples I've done are great, after poking around on YouTube for a bit I found another Code School video on [Object-Oriented Programming](http://www.youtube.com/watch?v=lbXsrHGhBAU) by Brian Will. His explanations extremely clear and relevant and some of the cat analogies are pretty funny too.
+While the Ruby-specific examples I've done are great, after poking around on YouTube for a bit I found another Code School video on Object-Oriented Programming by Brian Will. His explanations extremely clear and relevant and some of the cat analogies are pretty funny too.
+
+{% youtube lbXsrHGhBAU %}
+<br />
 
 ## Social Coding
 Also while searching for some insight on YouTube, I found this great video about the importance collaboration in software development. Brian Fitzpatrick and Ben Collins-Sussman explain how to avoid the trap of trying to be the solo genius developer and to "gracefully exchange personal ego for personal growth." Check it out.
 
-[Google I/O 2009 - The Myth of the Genius Programmer](https://www.youtube.com/watch?v=0SARbwvhupQ)
+{% youtube 0SARbwvhupQ %}

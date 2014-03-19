@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Day 6: Don't Listen To Your Parents"
+title: "Don't Listen To Your Parents"
 date: 2014-03-10 21:52:30 -0400
 comments: true
 categories: reading Ruby practice

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Day 1: Commence Denoobification"
+title: "Commence Denoobification"
 date: 2014-03-05 21:07:14 -0500
 comments: true
 categories: updates GitHub Jekyll Ruby

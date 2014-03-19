@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Day 3: Required Reading"
+title: "Required Reading"
 date: 2014-03-07 13:01:28 -0500
 comments: true
 categories: reading Ruby

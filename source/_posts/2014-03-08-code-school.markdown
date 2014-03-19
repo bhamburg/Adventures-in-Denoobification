@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Day 4: Code School"
+title: "Code School"
 date: 2014-03-08 18:18:05 -0500
 comments: true
 categories: ["Ruby", "Code School", "Codecademy"]

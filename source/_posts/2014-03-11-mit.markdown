@@ -1,0 +1,21 @@
+---
+layout: post
+title: "MIT"
+date: 2014-03-11 23:27:04 -0400
+comments: true
+categories: gems, Ruby, MIT, design
+---
+Today was my first full day in Boston. I decided to go for a run across the Charles River to MIT's campus and back, I had to do some logo design work before diving back into Ruby but I eventually managed to complete level 4 of [Ruby Bits](http://rubybits.codeschool.com/). I found the exercises to be pretty easy in this level. It turns out that Active Support, while it's not included in the Ruby base install, it's includes some very powerful functions that make it simple to do some common tasks.
+
+FYI: Active Support is released under the [MIT license](http://www.opensource.org/licenses/MIT).
+
+## Active Support
+
+```bash Install Active Support
+% [sudo] gem install activesupport
+% [sudo] gem install i18n # not required, but helpful
+```
+
+```ruby Load Active Support in your Ruby app
+require 'active_support/all'
+``` 
