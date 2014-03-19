@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Convention | bhamburg.github.io]]></title>
+  <link href="http://bhamburg.github.io/blog/categories/convention/atom.xml" rel="self"/>
+  <link href="http://bhamburg.github.io/"/>
+  <updated>2014-03-19T19:08:05-04:00</updated>
+  <id>http://bhamburg.github.io/</id>
+  <author>
+    <name><![CDATA[Brian Hamburg]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Get Rolling]]></title>
+    <link href="http://bhamburg.github.io/blog/2014/03/18/get-rolling/"/>
+    <updated>2014-03-18T18:23:12-04:00</updated>
+    <id>http://bhamburg.github.io/blog/2014/03/18/get-rolling</id>
+    <content type="html"><![CDATA[<p>After taking a much needed break from all things constructive to properly celebrate St. Patrick&rsquo;s Day while still in Boston, I&rsquo;m back on the Ruby train. Since I only had a little bit of time today, I listened to some <a href="http://www.buildingwebapps.com/transcript/79326-why-you-should-learn-ruby-on">free audio lessons about Ruby on Rails</a>, tried to install Rails on my Mac, failed hard, <a href="http://railsapps.github.io/installrubyonrails-mac.html">overcame failure</a>, poked around, and then try to reinforce what I&rsquo;m doing by reading some blog posts that praise Ruby and Ruby on Rails.</p>
+
+<h2>Installing Ruby On Rails</h2>
+
+<p><code>bash Install Rails Framework
+% sudo gem install rails
+</code></p>
+
+<p>That&rsquo;s all it should take, they said. Developing on Rails is easy, they said. They didn&rsquo;t say how hard it might be to troubleshoot the install.</p>
+
+<p>Part of my problem was that I was using the version of Ruby that ships with Mac OS X 10.9 Mavericks, which is known to have a security flaw. The recommended way to upgrade is to use <a href="https://rvm.io/">RVM</a>. From there I had to get <a href="http://brew.sh/">Homebrew</a>, uninstall <a href="http://bitboxer.de/2010/06/03/moving-from-macports-to-homebrew/">MacPorts</a>, update <code>.bash_profile</code> to point to <code>/usr/local/bin</code> to stop some error messages, install Rails, and finally reinstall <a href="http://rake.rubyforge.org/">Rake</a> so I could blog about it on Octopress.</p>
+
+<h2>Convention Over Configuration</h2>
+
+<p>In the podcast above, I came across the concept of Convention Over Configuration as a main theme in Rails development. Sure, having the ability to customize and do things your own way is nice, and sometimes necessary, but why would you in most cases? This is a big reason I&rsquo;ve returned to the iPhone and Mac for personal productivity after dabbling with Android and Linux for a bit. Kyle Samani wrote a nice article on the concept <a href="http://kylesamani.com/blog/convention-configuration">here</a> and I originally talked about &ldquo;the cost of freedom&rdquo; on my main blog <a href="http://brianhamburg.com/2013/06/the-cost-of-freedom/">over here</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>
