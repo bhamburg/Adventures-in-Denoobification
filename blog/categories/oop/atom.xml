@@ -4,7 +4,7 @@
   <title><![CDATA[Category: OOP | bhamburg.github.io]]></title>
   <link href="http://bhamburg.github.io/blog/categories/oop/atom.xml" rel="self"/>
   <link href="http://bhamburg.github.io/"/>
-  <updated>2014-03-19T22:25:26-04:00</updated>
+  <updated>2014-03-19T22:30:26-04:00</updated>
   <id>http://bhamburg.github.io/</id>
   <author>
     <name><![CDATA[Brian Hamburg]]></name>
@@ -22,7 +22,16 @@
 
 <p>While the Ruby-specific examples I&rsquo;ve done are great, after poking around on YouTube for a bit I found another Code School video on Object-Oriented Programming by Brian Will. His explanations extremely clear and relevant and some of the cat analogies are pretty funny too.</p>
 
-<p>{% youtube lbXsrHGhBAU %}</p>
+<p>
+<div class="ratio-4-3 embed-video-container" onclick="var myAnchor = document.getElementById('lbXsrHGhBAU');var tmpDiv = document.createElement('div');tmpDiv.innerHTML = '&lt;iframe style=&quot;vertical-align:top;width:100%;height:100%;position:absolute;&quot; src=&quot;http://www.youtube.com/embed/lbXsrHGhBAU?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;';myAnchor.parentNode.replaceChild(tmpDiv.firstChild, myAnchor);return false;" title="click here to play">
+<a class="youtube-lazy-link" style="width:100%;height:100%;background:#000 url(http://i2.ytimg.com/vi/lbXsrHGhBAU/0.jpg) center center no-repeat;background-size:contain;position:absolute" href="http://www.youtube.com/watch?v=lbXsrHGhBAU" id="lbXsrHGhBAU" onclick="return false;">
+<div class="youtube-lazy-link-div"></div>
+<div class="youtube-lazy-link-info">Object-Oriented Programming</div>
+</a>
+<div class="video-info" >Part of a larger series teaching programming. See http://codeschool.org/</div>
+</div>
+
+</p>
 
 <br />
 
@@ -31,7 +40,22 @@
 
 <p>Also while searching for some insight on YouTube, I found this great video about the importance collaboration in software development. Brian Fitzpatrick and Ben Collins-Sussman explain how to avoid the trap of trying to be the solo genius developer and to &ldquo;gracefully exchange personal ego for personal growth.&rdquo; Check it out.</p>
 
-<p>{% youtube 0SARbwvhupQ %}</p>
+<p>
+<div class="ratio-4-3 embed-video-container" onclick="var myAnchor = document.getElementById('0SARbwvhupQ');var tmpDiv = document.createElement('div');tmpDiv.innerHTML = '&lt;iframe style=&quot;vertical-align:top;width:100%;height:100%;position:absolute;&quot; src=&quot;http://www.youtube.com/embed/0SARbwvhupQ?autoplay=1&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;';myAnchor.parentNode.replaceChild(tmpDiv.firstChild, myAnchor);return false;" title="click here to play">
+<a class="youtube-lazy-link" style="width:100%;height:100%;background:#000 url(http://i2.ytimg.com/vi/0SARbwvhupQ/0.jpg) center center no-repeat;background-size:contain;position:absolute" href="http://www.youtube.com/watch?v=0SARbwvhupQ" id="0SARbwvhupQ" onclick="return false;">
+<div class="youtube-lazy-link-div"></div>
+<div class="youtube-lazy-link-info">Google I/O 2009 - The Myth of the Genius Programmer</div>
+</a>
+<div class="video-info" >Google I/O 2009 - The Myth of the Genius Programmer
+
+Brian Fitzpatrick, Ben Collins-Sussman
+
+A pervasive elitism hovers in the background of collaborative software development:  everyone secretly wants to be seen as a genius.  In this talk, we discuss how to avoid this trap and gracefully exchange personal ego for personal growth and super-charged collaboration.  We'll also examine how software tools affect social behaviors, and how to successfully manage the growth of new ideas.
+
+For presentation slides and all I/O sessions, please go to: code.google.com/events/io/sessions.html</div>
+</div>
+
+</p>
 ]]></content>
   </entry>
   
