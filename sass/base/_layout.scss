@@ -1,4 +1,4 @@
-$max-width: 1040px !default;
+$max-width: 1200px !default;
 
 // Padding used for layout margins
 $pad-min: 18px !default;
@@ -87,8 +87,6 @@ body {
     padding-top: $header-padding-top;
     padding-bottom: $header-padding-bottom;
   }
-  a.bh-logo {float: left; margin-right: .75em; border: none;}
-  a.bh-logo img {height: 2.8em; width: 2.8em}
 }
 
 #content {

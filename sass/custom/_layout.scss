@@ -1,6 +1,8 @@
 // Here you can easily change your sites's layout.
 // To give it a try, uncomment some of the lines below, make changes, rebuild your blog, and see how it works.
 
+$max-width: 1040px !default;
+
 //$header-font-size: 1em;
 //$header-padding-top: 1.5em;
 //$header-padding-bottom: 1.5em;
@@ -19,3 +21,6 @@
 //$sidebar-pad-medium: 15px;
 //$sidebar-pad-wide: 20px;
 //$sidebar-width-wide: 300px;
+
+a.bh-logo {float: left; margin-right: .75em; border: none;}
+a.bh-logo img {height: 2.8em; width: 2.8em}
