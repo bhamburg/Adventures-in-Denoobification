@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | bhamburg.github.io]]></title>
   <link href="http://bhamburg.github.io/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://bhamburg.github.io/"/>
-  <updated>2014-03-19T19:33:24-04:00</updated>
+  <updated>2014-03-19T22:25:26-04:00</updated>
   <id>http://bhamburg.github.io/</id>
   <author>
     <name><![CDATA[Brian Hamburg]]></name>
@@ -35,7 +35,7 @@
 
 <p>I had a few hours when I got home tonight to get a feel for how Octopress is structured and managed to make some changes to <code>_layout.scss</code> and <code>_typography.scss</code> and added my logo to the header and favicon. Overall, I&rsquo;m very pleased with tonight&rsquo;s results. Here are before and after shots.</p>
 
-<p><img src="/images/before.png" style="height: 45%; width: 45%;" /> <img src="/images/after.png" style="height: 45%; width: 45%; float: right;" /></p>
+<p><img src="{{ root_url }}/images/before.png" style="height: 45%; width: 45%;" /> <img src="{{ root_url }}/images/after.png" style="height: 45%; width: 45%; float: right;" /></p>
 ]]></content>
   </entry>
   
